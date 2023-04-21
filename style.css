@@ -6,3 +6,188 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Dongle', sans-serif ;
+}
+.logotipo{
+    position: absolute;
+    margin-left: 4.5vw;
+    cursor: pointer;
+}
+.navegador1 {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0.4vw;
+    margin: auto;
+    max-width: 30vw;
+    border-radius: 1.5vw;
+    box-shadow: 0vw 0vw 0.25vw 0vw black;
+    font-size: 1.6vw;
+    padding-left: 0.8vw;
+    margin-top: 1.5vw;
+  }
+
+  .navegador1:hover{
+    box-shadow: 0vw 0vw 0.6vw 0vw black;
+    cursor:pointer;
+}
+
+ .navegador1 img{
+    padding: 0.15vw;
+    margin-left: 0.25vw;
+ }
+  
+  .buscar {
+    display: flex;
+    align-items: center; 
+    gap: 1px; 
+  }
+
+  .buscar span{
+    color: grey;
+  }
+
+  .opciones{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    float: right;
+    max-width: 24vw;
+    font-size: 1.6vw;
+    padding-left: 0.9vw;
+    margin-top: -3.21vw;
+    margin-right: 3.21vw;
+  }
+
+  .opcion{
+    display: flex;
+    align-items: center; 
+    margin-right: 1.5vw;
+    padding: 0.3vw;
+  }
+
+  .opcion:hover{
+    border-radius: 3.6vw;
+    background-color: #DFDFDF;
+    cursor:pointer;
+    
+  }
+ 
+  #navegadoricon{
+    border: #DFDFDF solid 1px;
+    border-radius: 1.5vw;
+    padding: 0.21vw;
+  }
+  #navegadoricon:hover{
+    background-color: white;
+    box-shadow: 0vw 0vw 0.15vw 0vw #DFDFDF;
+    cursor:pointer;
+  }
+
+ .contenedor{
+    border-bottom: #DFDFDF solid 1px;
+    padding-bottom: 1.07vw;
+    max-width: 100%;
+    margin: auto;
+    margin-bottom: 2.14vw;
+  }
+
+  .navegador2 {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    flex-wrap: nowrap;
+    max-width: 90%;
+  }
+  .preferencia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.28vw;
+    opacity: 0.6;
+    font-weight: bold;
+    border-bottom: transparent solid 0.15vw;
+  }
+  
+  .preferencia:hover {
+    border-bottom: #C8C3C3 solid 0.15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.28vw;
+    opacity: 1;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .preferencia img {
+    width: 1.8vw;
+  }
+  
+  .preferencia span {
+    margin-top: 0.25vw;
+  }
+  .next img{
+    width: 1.8vw;
+    margin-top: 0.7vw;
+  }
+  .next img:hover{
+    box-shadow: 0vw 0vw 0.25vw 0vw grey;
+    border-radius: 3.6vw;
+    cursor: pointer;
+  }
+
+  .filter img{
+    width: 6vw;
+    border-radius: 0.7vw;
+    border: #DFDFDF solid 1px;
+    padding: 1.07vw;
+
+  }
+
+  .filter img:hover{
+    cursor: pointer;
+  }
+
+  .contenedor-casas{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-left: 5vw;
+  margin-top: 1.5vw;
+  margin-right: 1.5vw;
+  }
+
+  .casa img{
+  width: 20vw;
+  height: 20vw;
+  object-fit: cover;
+  border-radius: 0.7vw;
+  }
+
+  .casa h3{
+    font-size: 1.7vw;
+    margin-top: -0.57vw;
+    font-weight: 500;
+  }
+
+  .casa p{
+    font-size: 1.7vw;
+    color: #8A8A8A ;
+    font-weight: 200;
+    line-height: 1.5vw;
+    
+  }
+
+  .casa span{
+    color: #000000 ;
+    font-weight: 700;
+  }
+
+  .casa:hover{
+    cursor: pointer;
+  }
