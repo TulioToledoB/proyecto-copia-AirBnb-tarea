@@ -32,7 +32,18 @@ body{
     padding-left: 0.8vw;
     margin-top: 1.5vw;
   }
-
+  .navegador1 button{
+    border: none;
+    background-color:transparent;
+    font-family: 'Dongle', sans-serif;
+    font-size: 1.6vw;
+  }
+  .bordeBoton {
+    flex:0 0 1px ;
+    height:  24px;
+    width: 1px;
+    background-color: #dddddd;
+  }
   .navegador1:hover{
     box-shadow: 0vw 0vw 0.6vw 0vw black;
     cursor:pointer;
@@ -42,7 +53,7 @@ body{
     padding: 0.15vw;
     margin-left: 0.25vw;
  }
-  
+
   .buscar {
     display: flex;
     align-items: center; 
@@ -191,3 +202,58 @@ body{
   .casa:hover{
     cursor: pointer;
   }
+  footer {
+    font-family: 'Dongle', sans-serif;
+    font-size : 1.9vw;
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    background-color: #f2f2f2 ;
+  }
+  
+  .derechos {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .derechos p {
+    margin: 0;
+    display: flex;
+
+  }
+  
+  .enlaces {
+    display: flex;
+    max-width: 100%;
+  }
+
+  .enlaces img{
+    display: flex;
+    width: 18px;
+    margin-right: 4.5vw;
+    cursor: pointer;
+  }
+  .fot {
+padding: 10px;
+margin: auto 20px ;
+   margin-right: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  color: #666;
+  text-decoration: none;
+  border:none
+ }
+ .enlace_fot {
+  margin: auto 20px ;
+   margin-right: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  color: #666;
+  text-decoration: none;
+  border:none
+}
